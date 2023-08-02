@@ -25,3 +25,11 @@ h{
     font-style: oblique
     ;
   }
+
+.link-button:hover {
+    background-color: #b4acac;
+}
+
+#enlace:hover {
+    color: #f2f2f2;
+}
