@@ -14,7 +14,7 @@ body {
 
 .link-button {
     text-decoration: none;
-    color: blue;
+    color: rgb(113, 113, 185);
     border: 1px solid gray;
     background-color: #f2f2f2;
     padding: 5px;
@@ -28,12 +28,22 @@ a:hover{
   
 h1{
     font-style: oblique;
+
+    color: rgb(32, 34, 95);
+    text-align: center;
+
+  }
+
+  h2 {
+    font-style: oblique;
+    color: rgb(32, 26, 75);
+    text-align: center;
   }
 
 .link-button:hover {
     background-color: #b4acac;
 }
-
-#enlace:hover {
-    color: #f2f2f2;
+#enlaceTexto:hover {
+    color: #259f9f;
 }
+    
