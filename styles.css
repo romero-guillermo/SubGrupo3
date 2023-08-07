@@ -28,6 +28,16 @@ a:hover{
   
 h1{
     font-style: oblique;
+
+    color: rgb(32, 34, 95);
+    text-align: center;
+
+  }
+
+  h2 {
+    font-style: oblique;
+    color: rgb(32, 26, 75);
+    text-align: center;
   }
 
 .link-button:hover {
@@ -36,6 +46,10 @@ h1{
 
 #enlace:hover {
     color: #f2f2f2;
+}
+
+#enlaceTexto:hover {
+    color: #259f9f;
 }
 .descripcion{
     display: flex;
