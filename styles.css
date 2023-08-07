@@ -21,8 +21,14 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+
+a:hover{
+    background-color : red;
+}
+  
 h1{
     font-style: oblique;
+
     color: rgb(32, 34, 95);
     text-align: center;
 
@@ -37,9 +43,6 @@ h1{
 .link-button:hover {
     background-color: #b4acac;
 }
-
-
-
 #enlaceTexto:hover {
     color: #259f9f;
 }
