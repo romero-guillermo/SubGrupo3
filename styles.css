@@ -21,9 +21,13 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+
+a:hover{
+    background-color : red;
+}
+  
 h1{
-    font-style: oblique
-    ;
+    font-style: oblique;
   }
 
 .link-button:hover {
