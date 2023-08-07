@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-    background-color:blue;
+    background-color:brown;
 }
 
 .image{
@@ -14,7 +14,7 @@ body {
 
 .link-button {
     text-decoration: none;
-    color: rgb(113, 113, 185);
+    color: blue;
     border: 1px solid gray;
     background-color: #f2f2f2;
     padding: 5px;
@@ -43,7 +43,24 @@ h1{
 .link-button:hover {
     background-color: #b4acac;
 }
+
+#enlace:hover {
+    color: #f2f2f2;
+}
+
 #enlaceTexto:hover {
     color: #259f9f;
 }
-    
+.descripcion{
+    display: flex;
+}
+.carta{
+    width: 50%;
+    margin: 5px;
+}
+.carta img{
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
