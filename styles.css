@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-    background-color:blue;
+    background-color:brown;
 }
 
 .image{
@@ -14,33 +14,39 @@ body {
 
 .link-button {
     text-decoration: none;
-    color: rgb(113, 113, 185);
+    color: blue;
     border: 1px solid gray;
     background-color: #f2f2f2;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+
+a:hover{
+    background-color : red;
+}
+  
 h1{
     font-style: oblique;
-    color: rgb(32, 34, 95);
-    text-align: center;
-
-  }
-
-  h2 {
-    font-style: oblique;
-    color: rgb(32, 26, 75);
-    text-align: center;
   }
 
 .link-button:hover {
     background-color: #b4acac;
 }
 
-
-
-#enlaceTexto:hover {
-    color: #259f9f;
+#enlace:hover {
+    color: #f2f2f2;
 }
-    
+.descripcion{
+    display: flex;
+}
+.carta{
+    width: 50%;
+    margin: 5px;
+}
+.carta img{
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
